@@ -7,7 +7,7 @@
 <p align="justify">Este projeto foi inspirado em um desafio técnico compartilhado por recrutadores para a construção de motores de equivalência acadêmica auditáveis.</p>
 
 <p align="center">
-  <img src="fig.png" alt="Imagem de referência do desafio publicado no LinkedIn" width="600px">
+  <img src="fig1.png" alt="Imagem de referência do desafio publicado no LinkedIn" width="600px">
 </p>
 
 ## 2. O Desafio

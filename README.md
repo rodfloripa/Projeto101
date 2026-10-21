@@ -103,7 +103,21 @@ motor-equivalencia-explicavel/
 └── fig.png               # Imagem de referência do desafio
 ```
 
-## 7. Conclusão
+## 7. Como Usar a Aplicação
+
+### 7.1. Como Exibir a Validação Humana
+
+<p align="justify">Na tela inicial, preencha ou mantenha os textos padrão das duas ementas. Em seguida, clique no botão <strong>Avaliar Equivalência</strong> e aguarde o processamento das três camadas. Quando a avaliação terminar, role a página para baixo. A interface exibirá os quadros de métricas, o detalhamento da explicabilidade por tópico e, logo depois, a seção de validação humana (*Human-in-the-Loop*), com um menu para escolher a decisão final e um campo para registrar o parecer ou feedback.</p>
+
+### 7.2. Como Criar a Memória de Precedentes
+
+<p align="justify">Depois que o resultado da avaliação aparecer, selecione no menu uma das decisões disponíveis: <code>APROVADO</code>, <code>REPROVADO</code> ou <code>ANALISE_HUMANA</code>. Escreva uma observação no campo de feedback e clique em <strong>Salvar como Precedente</strong>. O registro será gravado no banco de dados local <code>precedentes.db</code>, formando um histórico que poderá ser consultado posteriormente.</p>
+
+### 7.3. Onde Encontrar o Monitoramento de Mudanças (*Drift*)
+
+<p align="justify">Role até o final da página e abra a seção expansível <strong>Monitorar Drift e Precedentes</strong>. Se nenhum precedente tiver sido salvo, a interface exibirá a mensagem <em>Nenhum precedente salvo ainda.</em> Depois que você salvar um precedente, a tabela com o histórico de decisões e o gráfico interativo de linhas, que acompanha a variação das pontuações ao longo do tempo, aparecerão dentro dessa seção.</p>
+
+## 8. Conclusão
 
 <p align="justify">O Motor de Equivalência Acadêmica Explicável propõe uma abordagem estruturada para comparar ementas e percursos acadêmicos sem depender exclusivamente de uma pontuação de similaridade. A combinação de regras determinísticas, análise semântica e uma camada final de decisão permite considerar tanto critérios objetivos — como carga horária e tópicos obrigatórios — quanto a proximidade de significado entre os conteúdos.</p>
 

@@ -117,6 +117,10 @@ motor-equivalencia-explicavel/
 
 <p align="justify">Role até o final da página e abra a seção expansível <strong>Monitorar Drift e Precedentes</strong>. Se nenhum precedente tiver sido salvo, a interface exibirá a mensagem <em>Nenhum precedente salvo ainda.</em> Depois que você salvar um precedente, a tabela com o histórico de decisões e o gráfico interativo de linhas, que acompanha a variação das pontuações ao longo do tempo, aparecerão dentro dessa seção.</p>
 
+<p align="center">
+  <img src="fig3.png" alt="Sistema Criado" width="600px">
+</p>
+
 ## 8. Conclusão
 
 <p align="justify">O Motor de Equivalência Acadêmica Explicável propõe uma abordagem estruturada para comparar ementas e percursos acadêmicos sem depender exclusivamente de uma pontuação de similaridade. A combinação de regras determinísticas, análise semântica e uma camada final de decisão permite considerar tanto critérios objetivos — como carga horária e tópicos obrigatórios — quanto a proximidade de significado entre os conteúdos.</p>
